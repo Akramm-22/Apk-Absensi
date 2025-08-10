@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 # Apk-Absensi
 Project aplikasi absensi asrama
 =======
