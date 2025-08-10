@@ -19,7 +19,7 @@ Edit
 git clone https://github.com/Akramm-22/Apk-Absensi.git
 cd Apk-Absensi
 2️⃣ Install Dependency
-bash
+bash      
 Salin
 Edit
 flutter pub get
