@@ -1,21 +1,72 @@
-HEAD
-# Apk-Absensi
-Project aplikasi absensi asrama
-=======
-# baru
+📌 Apk-Absensi
+Aplikasi absensi asrama berbasis Flutter dengan tampilan modern, mudah digunakan, dan mendukung fitur pencatatan pelanggaran serta export data.
 
-A new Flutter project.
+🚀 Cara Menjalankan Project Setelah Clone
+Pastikan kamu sudah menginstall:
 
-## Getting Started
+Flutter SDK (disarankan versi terbaru)
 
-This project is a starting point for a Flutter application.
+Dart SDK (biasanya sudah termasuk di Flutter)
 
-A few resources to get you started if this is your first Flutter project:
+Android Studio atau VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 8cb874e (Akram : upload project apk absensi)
+1️⃣ Clone Repository
+bash
+Salin
+Edit
+git clone https://github.com/Akramm-22/Apk-Absensi.git
+cd Apk-Absensi
+2️⃣ Install Dependency
+bash
+Salin
+Edit
+flutter pub get
+3️⃣ Jalankan di Emulator / Device
+Pastikan device sudah terhubung:
+
+bash
+Salin
+Edit
+flutter devices
+flutter run
+Jika ingin menjalankan di mode release:
+
+bash
+Salin
+Edit
+flutter run --release
+📂 Struktur Folder Utama
+lib/ → Berisi source code utama aplikasi
+
+assets/ → Berisi gambar, ikon, dan asset lainnya
+
+pubspec.yaml → File konfigurasi Flutter dan dependency
+
+✨ Fitur Utama
+📋 Absensi Siswa
+
+Mencatat kehadiran secara real-time
+
+Pilihan status hadir, izin, sakit, atau alpha
+
+🚨 Sistem Pelanggaran
+
+Mencatat jenis pelanggaran siswa
+
+Skor pelanggaran otomatis terhitung
+
+📤 Export Data
+
+Export data absensi ke format Excel/CSV
+
+🖥 Tampilan Modern
+
+UI responsif dan user-friendly
+
+Menggunakan desain modern dengan warna yang nyaman di mata
+
+⚡ Performa Cepat
+
+Dibangun dengan Flutter, berjalan lancar di Android & iOS
