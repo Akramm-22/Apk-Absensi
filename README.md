@@ -1,7 +1,7 @@
-📌 Apk-Absensi
+###📌 Apk-Absensi
 Aplikasi absensi asrama berbasis Flutter dengan tampilan modern, mudah digunakan, dan mendukung fitur pencatatan pelanggaran serta export data.
 
-🚀 Cara Menjalankan Project Setelah Clone
+###🚀 Cara Menjalankan Project Setelah Clone
 Pastikan kamu sudah menginstall:
 
 Flutter SDK (disarankan versi terbaru)
