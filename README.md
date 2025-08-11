@@ -11,63 +11,57 @@ Dart SDK (biasanya sudah termasuk di Flutter)
 Android Studio atau VS Code
 
 Git
-1️⃣ Clone Repository
-'''
-bash
-Salin
-Edit
+### 1.Clone Repository
+```
 git clone https://github.com/Akramm-22/Apk-Absensi.git
 cd Apk-Absensi
-'''
-2️⃣ Install Dependency
-bash      
-Salin
-Edit
+```
+
+### 2.Install Dependency
+```
 flutter pub get
-3️⃣ Jalankan di Emulator / Device
+```
+### 3.Jalankan di Emulator / Device
 Pastikan device sudah terhubung:
 
-bash
-Salin
-Edit
+``
 flutter devices
 flutter run
-Jika ingin menjalankan di mode release:
-
-bash
-Salin
-Edit
+``
+### Jika ingin menjalankan di mode release:
+```
 flutter run --release
-📂 Struktur Folder Utama
+```
+### 📂 Struktur Folder Utama
 lib/ → Berisi source code utama aplikasi
 
 assets/ → Berisi gambar, ikon, dan asset lainnya
 
 pubspec.yaml → File konfigurasi Flutter dan dependency
 
-✨ Fitur Utama
-📋 Absensi Siswa
+### ✨ Fitur Utama
+_📋 Absensi Siswa_
 
 Mencatat kehadiran secara real-time
 
 Pilihan status hadir, izin, sakit, atau alpha
 
-🚨 Sistem Pelanggaran
+_🚨 Sistem Pelanggaran_
 
 Mencatat jenis pelanggaran siswa
 
 Skor pelanggaran otomatis terhitung
 
-📤 Export Data
+_📤 Export Data_
 
 Export data absensi ke format Excel/CSV
 
-🖥 Tampilan Modern
+_🖥 Tampilan Modern_
 
-UI responsif dan user-friendly
+_UI responsif dan user-friendly_
 
 Menggunakan desain modern dengan warna yang nyaman di mata
 
-⚡ Performa Cepat
+_⚡ Performa Cepat_
 
 Dibangun dengan Flutter, berjalan lancar di Android & iOS
