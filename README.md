@@ -11,13 +11,14 @@ Dart SDK (biasanya sudah termasuk di Flutter)
 Android Studio atau VS Code
 
 Git
-
 1️⃣ Clone Repository
+'''
 bash
 Salin
 Edit
 git clone https://github.com/Akramm-22/Apk-Absensi.git
 cd Apk-Absensi
+'''
 2️⃣ Install Dependency
 bash      
 Salin
